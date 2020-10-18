@@ -6,7 +6,7 @@ include 'class.IPInfoDB.php';
 $ApiKey = 'Another API';
 //call to fn
 $ipinfodb = new IPInfoDB(ApiKey);
-$results = $ipinfodb->getCity('New API');
+$results = $ipinfodb->getCity('A new async API Key');
 
 // Getting the result
 echo "Results for city query:<br>";
